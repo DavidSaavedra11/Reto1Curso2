@@ -35,4 +35,6 @@ public class UserController {
     public User authUser(@PathVariable String email, @PathVariable String password){
         return userService.authUser(email,password);
     }
+
+    //Minuto 48 video
 }
