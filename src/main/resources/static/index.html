@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+    <script src="/webjars/jquery/3.6.2/jquery.min.js"></script>
+    <script src="/webjars/bootstrap/5.1.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="webjars/bootstrap/5.1.0/css/bootstrap.min.css"/>
+    <script defer src="javaScript/login.js"></script>
+    <title>miEmpresa.com</title>
+</head>
+
+<body class="bg-image" style="
+      background-image: url('https://media.istockphoto.com/id/684133544/photo/white-brick-wall-background-photo.webp?b=1&s=170667a&w=0&k=20&c=D1USdg4iW9eg43tpFxfspT3MRf_nMoHQtSnlZPhn8nQ=');
+      height: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+    "
+>
+<div style="width: 80%; text-align:center; margin: auto; padding: 2%">
+    <h1 class="fw-bold">miEmpresa.com</h1>
+    <br><br>
+    <h3>Inicio de Sesion</h3>
+
+    <div class="container border border-dark"  style="width: 40%; text-align:left; margin: auto; padding: 2%">
+        <form id="loginForm" action="homePage.html">
+            <div class="mb-3">
+                <label for="inputEmail" class="fw-bold form-label">E-mail</label>
+                <input type="email" class="form-control" id="inputEmail" name="inputEmail">
+                <div class="invalid-feedback">Ingresa un e-mail valido</div>
+            </div>
+            <div class="mb-3">
+                <label for="inputPassword" class="fw-bold form-label">Contraseña</label>
+                <input type="password" class="form-control" id="inputPassword" name="inputPassword">
+                <div class="invalid-feedback">Contraseña invalida</div>
+            </div>
+            <button class="btn btn-primary" type="submit">Ingresar</button>
+        </form>
+        <small>¿No tienes cuenta? <a href="crearCuenta.html"><u>Crea tu cuenta aqui</u></a></small>
+    </div>
+</div>
+
+</body>
+</html>
